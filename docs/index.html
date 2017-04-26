@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>encoder</title>
+</head>
+<body>
+    <div class="bg"></div>
+    <script src="./main.js"></script>
+</body>
+<style>
+    .bg {
+        background-image: url('./bg.jpg');
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+    }
+    .bg::after {
+        content: '';
+        z-index: -1;
+        background-color: black;
+        opacity: .3;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+</html>

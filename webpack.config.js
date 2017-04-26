@@ -3,7 +3,7 @@ module.exports = {
       'main': __dirname + '/src/main.js'
   },
   output: {
-    path: __dirname + '/doc',
+    path: __dirname + '/docs',
     filename: '[name].js'
   },
   module: {

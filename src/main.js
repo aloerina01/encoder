@@ -56,7 +56,3 @@ const actions = {
 };
 
 app({ state, view, actions });
-
-const style = {
-
-}
